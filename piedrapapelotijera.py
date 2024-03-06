@@ -1,13 +1,21 @@
 import random
 
-print ("1 =  piedra")
-print ("2 =  papel")
-print ("3 =  tijera")
+print ("1 =  Piedra")
+print ("2 =  Papel")
+print ("3 =  Tijera")
 
 
 tirada = input ("Escoge tu tirada: ")
 
 tiradaordenador = random.randint(1,3)
 
-print (tirada)
-print (tiradaordenador)
+
+
+if tiradaordenador == 1:
+    print("El ordenador a sacado Piedra")
+elif tiradaordenador == 2:
+    print("El ordenador a sacado Papel")
+elif tiradaordenador == 3:
+    print("El ordenador a sacado Tijera")
+
+    
