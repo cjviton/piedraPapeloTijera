@@ -7,7 +7,7 @@ print ("2 =  Papel")
 print ("3 =  Tijera")
 
 
-tirada = input ("Escoge tu tirada: ")
+tirada = int(input ("Escoge tu tirada: "))
 tiradaordenador = random.randint(1,3)
 
 
@@ -20,3 +20,21 @@ elif tiradaordenador == 3:
     print("El ordenador a sacado Tijera")
 
     
+if tirada == 1 and tiradaordenador == 1:
+    print ("EMPATE")
+elif tirada == 1 and tiradaordenador == 2:
+    print ("MÁQUINA GANA")
+elif tirada == 1 and tiradaordenador == 3:
+    print ("JUGADOR GANA")
+elif tirada == 2 and tiradaordenador == 1:
+    print ("JUGADOR GANA")
+elif tirada == 2 and tiradaordenador == 2:
+    print ("EMPATE")
+elif tirada == 2 and tiradaordenador == 3:
+    print ("MÁQUINA GANA")
+elif tirada == 3 and tiradaordenador == 1:
+    print ("MÁQUINA GANA")
+elif tirada == 3 and tiradaordenador == 2:
+    print ("JUGADOR GANA")
+elif tirada == 3 and tiradaordenador == 3:
+    print ("EMPATE")  
