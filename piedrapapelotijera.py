@@ -14,11 +14,11 @@ def repetir():
 
 
     if tiradaordenador == 1:
-        print("El ordenador a sacado Piedra")
+        print("El ordenador ha sacado Piedra")
     elif tiradaordenador == 2:
-        print("El ordenador a sacado Papel")
+        print("El ordenador ha sacado Papel")
     elif tiradaordenador == 3:
-        print("El ordenador a sacado Tijera")
+        print("El ordenador ha sacado Tijera")
 
         
     if tirada == 1 and tiradaordenador == 1:
