@@ -1,12 +1,13 @@
 import random
 
+print("Bienvenido a piedra, papel o tijera. v 0.3")
+
 print ("1 =  Piedra")
 print ("2 =  Papel")
 print ("3 =  Tijera")
 
 
 tirada = input ("Escoge tu tirada: ")
-
 tiradaordenador = random.randint(1,3)
 
 
