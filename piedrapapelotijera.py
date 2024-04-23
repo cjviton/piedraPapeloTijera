@@ -1,7 +1,7 @@
 import random
 
 print("Bienvenido a piedra, papel o tijera. v 0.3")
-
+print("Incluyo esta nueva línea para subir a github")
 def repetir():
     print ("1 =  Piedra")
     print ("2 =  Papel")
